@@ -109,5 +109,6 @@ button {
     background-color: rgb(123, 189, 255);
 }
 .new {
-    
+    font-weight: bold;
+    background-color: red;
 }
