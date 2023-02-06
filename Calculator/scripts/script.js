@@ -45,26 +45,40 @@ function clickButton() {
                 clearDisplay();
                 updateDisplay();
             }
+            // Add 4 new functions below
             else if(buttons[i].classList.contains('squared')) {
-            displayValue=displayValue*displayValue;
+            displaySquared();
             updateDisplay();
             }
             else if(buttons[i].classList.contains('pi')) {
-            displayValue=displayValue*3.14;
+            displayPi();
             updateDisplay();
             }
             else if(buttons[i].classList.contains('plusone')) {
-                displayValue++;
+                displayPlusOne();
                 updateDisplay();
             }
             else if(buttons[i].classList.contains('minusone'))
-                displayValue--;
+                displayMinusOne();
                 updateDisplay();
         }
     )}
 }
 
 clickButton();
+
+function displaySquared() {
+    displayValue=displayValue*displayValue;
+}
+function displayPi() {
+    displayValue=displayValue*3.14;
+}
+function displayPlusOne() {
+    displayValue++;
+}
+function displayMinusOne() {
+    displayValue--;
+}
 
 function inputOperand(operand) {
     if(firstOperator === null) {
