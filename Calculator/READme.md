@@ -6,3 +6,4 @@ Added new classes with new class properties <br>
 Added comments & made readme <br>
 Added 4 new functions for the empty buttons <br>
 Added onclick color for new buttons <br>
+<img src="Animation.gif">
