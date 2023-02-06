@@ -67,6 +67,7 @@ function clickButton() {
 
 clickButton();
 
+// Make functions
 function displaySquared() {
     displayValue=displayValue*displayValue;
 }
