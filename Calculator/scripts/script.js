@@ -45,9 +45,21 @@ function clickButton() {
                 clearDisplay();
                 updateDisplay();
             }
-            else if(buttons[i].classList.contains('new'))
-            displayValue=num(displayValue)+1;
+            else if(buttons[i].classList.contains('squared')) {
+            displayValue=displayValue*displayValue;
             updateDisplay();
+            }
+            else if(buttons[i].classList.contains('pi')) {
+            displayValue=displayValue*3.14;
+            updateDisplay();
+            }
+            else if(buttons[i].classList.contains('plusone')) {
+                displayValue++;
+                updateDisplay();
+            }
+            else if(buttons[i].classList.contains('minusone'))
+                displayValue--;
+                updateDisplay();
         }
     )}
 }
