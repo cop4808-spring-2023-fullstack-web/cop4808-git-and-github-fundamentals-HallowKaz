@@ -112,3 +112,7 @@ button {
     font-weight: bold;
     background-color: red;
 }
+.pi:active, .squared:active, .plusone:active, .minusone:active {
+    font-weight: bold;
+    background-color: whitesmoke;
+}
