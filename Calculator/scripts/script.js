@@ -41,9 +41,13 @@ function clickButton() {
             } else if(buttons[i].classList.contains('sign')) {
                 inputSign(displayValue);
                 updateDisplay();
-            } else if(buttons[i].classList.contains('clear'))
+            } else if(buttons[i].classList.contains('clear')) {
                 clearDisplay();
                 updateDisplay();
+            }
+            else if(buttons[i].classList.contains('new'))
+            displayValue=num(displayValue)+1;
+            updateDisplay();
         }
     )}
 }
